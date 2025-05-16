@@ -33,20 +33,6 @@ Docker (opcional): Caso queira rodar a aplicação em um container.
 ```bash
 mvn spring-boot:run
 ```
-4. Como Rodar em um Container (Opcional)
-
-4.1. Crie a Imagem Docker
-Certifique-se de que o Docker está instalado e execute:
-
-```bash
-docker build -t api-transacoes 
-```
-
-4.2. Execute o Container
-
-```bash
-docker run -p 8080:8080 api-transacoes
-```
 
 ## Documentação da API
 
